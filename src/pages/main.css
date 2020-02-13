@@ -1,0 +1,139 @@
+.matchContainer{
+  transition: all 200ms;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 2.5% 0;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.8)
+}
+.matchContainer .avatar{
+  height:35%;
+  border-radius: 50%;
+  border:5px solid #fff;
+  margin: 2.5% 0  ;
+} 
+.matchContainer strong{
+  font-size: 32px;
+  color: #fff;
+  margin-bottom: 1%;
+} 
+.matchContainer p{
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.8);
+  width: 60%;
+  text-align: center;
+  margin-bottom: 1%;
+}
+.matchContainer button{
+  font-size: 20px;
+  background: transparent;
+  text-transform: uppercase;
+  border: transparent;
+  color: rgba(255, 255, 255, 0.8);    
+  text-align: center;
+  margin-bottom: 1%;
+  letter-spacing: 2px;
+  transition: 200ms;
+}
+.matchContainer button:hover{
+  transition: all 200ms; 
+  letter-spacing: 3px;
+  cursor: pointer;
+  transform: scale(1.05)
+} 
+
+.empty{
+  position: absolute;
+  bottom: 50vh;
+  left: 0;
+  width: 100%;
+  font-size: 30px;
+}
+.containerMain {
+  transition: all 200ms;
+  width: 60%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 2.5% 0;
+  text-align: center;
+}
+.containerMain ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 5%;
+  margin: 5% 0;
+}
+.containerMain ul li {
+  display: flex;
+  flex-direction: column;
+  height: 70vh;
+}
+
+.containerMain ul li footer {
+  background: #fff;
+  border-radius: 0 0 5px 5px;
+  border: 1px solid #eee;
+  padding: 15px 20px;
+  text-align: left;
+  min-height: 35%;
+}
+.containerMain ul li footer strong {
+  font-size: 16px;
+  color: #111;
+}
+
+.containerMain ul li footer p {
+  font-size: calc(4px + 0.6vw);
+  line-height: calc(4px + 0.9vw);
+  margin-top: 7.5px;
+  color: #999;
+}
+
+.containerMain ul li img {
+  width: 100%;
+  height: 55%;
+  border-radius: 5px 5px 0 0;
+}
+
+.containerMain ul li .divButtons {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2.5%;
+  height: 10%;
+}
+.containerMain ul li button {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  padding: 15%;
+  background: white;
+  border: 0;
+  border-radius: 5%;
+  cursor: pointer;
+  box-shadow: 0 0 5px 0.5px rgb(0, 0, 0, 0.15);
+}
+.containerMain ul li button img {
+  height: 25px;
+  width: 30px;
+  transition: 200ms;
+}
+
+.containerMain ul li button:hover img {
+  transition: 200ms;
+  transform: scale(1.075);
+}
+.containerMain ul li button:hover {
+    transition: 200ms;
+    background: #fafafa
+  }
